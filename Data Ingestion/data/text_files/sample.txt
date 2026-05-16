@@ -1,0 +1,15 @@
+LangChain is a powerful open-source framework designed to make it easier to build applications powered by large language models (LLMs). Instead of calling a model directly, LangChain lets developers connect LLMs with data, logic, and external tools — enabling intelligent apps like chatbots, document analyzers, and retrieval-augmented generation (RAG) systems.
+
+At its core, LangChain provides:
+
+LLM Wrappers – Unified APIs to interact with models like OpenAI, Claude, Gemini, and others.
+
+Chains – Sequences of components (like prompts, model calls, and output parsers) combined to form workflows.
+
+Agents – LLM-driven entities that decide which tools to use and in what order.
+
+Memory – Mechanisms to store and recall previous interactions or context.
+
+Retrievers and Vector Stores – Tools to fetch relevant documents for context-aware responses, commonly used in RAG pipelines.
+
+LangChain integrates seamlessly with popular databases and libraries such as ChromaDB, Pinecone, FAISS, and Hugging Face, allowing you to build end-to-end AI systems that reason, search, and respond intelligently.
